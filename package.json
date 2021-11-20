@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack -p",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
     "prettier:format": "prettier --write \"**/*.+(js|(sa|sc)ss)\"",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
